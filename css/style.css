@@ -1,0 +1,42 @@
+body{
+	background-image: url(../images/nature.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	overflow: hidden;
+
+}
+.wolf{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	animation: mymove 10s ;
+	top: 50%;
+}
+
+@keyframes mymove{
+	from{right: px}
+	to{right: 1000px}
+}
+
+.redhood{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	animation: mymove 6s ;
+	top: 60%;	
+	
+
+}
+
+@keyframes mymove{
+	from{right: 0px}
+	to {right: 1000px}
+
+}
+.sun{
+	margin-left:550px ;
+	
+}
+
